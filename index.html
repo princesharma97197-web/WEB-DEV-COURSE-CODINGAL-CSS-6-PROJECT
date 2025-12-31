@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Positioning Project</title>
+
+    
+    <style>
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+      
+        .container {
+            margin-top: 80px;
+            padding: 20px;
+            position: relative;
+        }
+
+        .absolute{
+            position: absolute;
+            top: 200px;
+            right: 20px;
+            background-color: #ff7979;
+            color: white;
+            padding: 50px;
+        }
+
+        footer {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background-color: #5900ff;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            font-size: 20px;
+            font-family: monospace;   
+             }
+    </style>
+</head>
+
+<body>
+
+   
+    <header>
+        <h1>CSS Positioning Project</h1>
+    </header>
+
+  
+    <div class="container">
+        <h2>Main Content</h2>
+        <p>This project demonstrates CSS positioning using internal CSS.</p>
+
+
+            <div class="absolute">
+               This is Absolute Box
+            </div>
+    <footer>
+        <p>2026 CSS Project</p>
+    </footer>
+
+</body>
+
+</html>
